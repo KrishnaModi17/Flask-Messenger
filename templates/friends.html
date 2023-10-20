@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="mb-4">{{ user.username }}'s Friends</h1>
+
+  {% if friends %}
+    <div class="row">
+      {% for friend in friends %}
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ friend.username }}</h5>
+              <p class="card-text">Some information about the friend</p>
+              <a href="#" class="btn btn-primary">Send Message</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>You have no friends yet. Use the search bar to find other users!</p>
+  {% endif %}
+  
+  <a href="{{ url_for('requests') }}">View friend requests</a>
+{% endblock %}

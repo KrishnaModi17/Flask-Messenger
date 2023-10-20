@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/chat.css') }}">
+        <title>Dashboard</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="dashboard">
+            <div id="user-info">
+               
+               <h1><ion-icon name="person-outline"></ion-icon> Welcome, {{uid}}</h1>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="/Profile">Profile</a></li>
+                    <li><a href="{{url_for('Friends',user_id=uid)}}">Friends</a></li>
+                    <li><a href="{{url_for('Groups',user_id=uid)}}">Groups</a></li>
+                    <li><a href="{{url_for('access_request',user_id=uid)}}">Friend Requests</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                    <!-- <li><ion-icon name="person-outline"></ion-icon></li> -->
+                </ul>
+            </div>
+        </div>
+        
+        <div id="friends" style="margin-left :82vh;">
+            <!-- List of friends will be displayed here -->
+            <div >
+                {% for user in friends %}
+                    <a href="{{url_for('update_cid',user_id=uid,chat_id=user)}}" style="color:antiquewhite">{{user}}</a><br>
+                {% endfor %}    
+                </div>
+        </div>
+        <div id="chat">
+            
+            <form id="message_input_form" action="chat" method="POST">
+                <div id="chat-window">
+                    <!-- Chat messages will be displayed here -->
+
+                </div>
+                <table id="message-input">
+                    <tr>
+                        <td>
+                            <input type="text" id="message_input" placeholder="Type your message...">            
+                        </td>
+                    
+                        <td style="padding-left: 20px; padding-bottom: 15px;">
+                            <button id="send-button" type="submit">Send</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    
+    
+        <div id="groups">
+            <!-- List of groups will be displayed here -->
+        </div>
+    
+        <div id="friend-request">
+            <!-- List of friend requests and related actions will be displayed here -->
+            <div style="color: antiquewhite;">
+                {% for friend in requests %}
+
+                    <h2>{{friend}}</h2>
+                    <div >
+                        <form action="/add_friend" method="POST" style="color: white;">
+                            <input type="hidden" name="frnd" value="{{friend}}">
+                            <input type="hidden" name="friend" value="Accept">
+                            <button id="confirm" style="width: 100%; ">
+                                <div>Confirm</div></button>
+                        </form>
+                        <form action="/remove_req" method="POST" style="color: white;">                     
+                                <input type="hidden" name="frnd" value="{{friend}}">
+                                <input type="hidden" name="friend" value="Delete">
+                                <button id="delete" style="width: 100%;">
+                                    <div>Delete</div></button>
+                         </form>
+                    </div>
+                {% endfor %}   
+            </div>
+        </div>
+        <div id="search" >
+            <form action="/friend_check" method="POST" >
+                <input type="text" id="search-input" placeholder="Search.." name="uid" style="width: 300px; border-radius: 6px; margin-right: 50%" > <br>
+                <button type="submit" class="d-block btn btn-info mt-2 m-auto btnAcc">Send Request</button>
+            </div>
+            </form>
+        </div>
+    
+    
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script>
+        const socket = io.connect("http://127.0.0.1:5000");
+        socket.on('connect',function()
+        {
+            socket.emit('join_room',{
+                username:"{{uid}}"
+            });
+            let message_input=document.getElementById('message_input');
+            document.getElementById('message_input_form').onsubmit=function(e){
+                e.preventDefault();
+                let message=message_input.value.trim();
+                if(message.length){
+                    socket.emit('send_message',{
+                        uid:"{{uid}}",
+                        message:message
+                    })
+                }
+                message_input.value='';
+                message_input.focus();
+            }
+        });
+
+        window.onbeforeunload = function () {
+        socket.emit('leave_room', {
+            username: "{{ username }}",
+            room: "{{ room }}"
+        })
+    };
+
+        socket.on('receive_message',function(data){
+            console.log(data);
+            const newNode=document.createElement('div');
+            newNode.innerHTML=`<b>${data.uid}:&nbsp;</b> ${data.message}`;
+            document.getElementById('chat-window').appendChild(newNode);
+            
+            
+        });
+
+        socket.on('join_room_announcement',function(data)
+        {
+            console.log(data);
+            const newNode=document.createElement('div');
+            newNode.innerHTML=`<b>${data.username}</b> is Online`;
+            document.getElementById('chat-window').appendChild(newNode);
+        });
+
+        socket.on('leave_room_announcement', function (data) {
+        console.log(data);
+        const newNode = document.createElement('div');
+        newNode.innerHTML = `<b>${data.username}</b> is Offline`;
+        document.getElementById('chat-window').appendChild(newNode);
+    });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

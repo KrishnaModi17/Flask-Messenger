@@ -1,0 +1,298 @@
+2023-10-20 09:44:46,688 :: WARNING ::  * Debugger is active!
+2023-10-20 09:44:46,691 :: INFO ::  * Debugger PIN: 109-129-014
+2023-10-20 09:44:49,386 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:49] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:44:49,430 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:49] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:44:55,815 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:55] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 09:44:55,825 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:55] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:44:55,843 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:55] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:44:55,863 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:55] "GET /socket.io/?EIO=4&transport=polling&t=OjBInrn HTTP/1.1" 200 -
+2023-10-20 09:44:55,871 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:55] "POST /socket.io/?EIO=4&transport=polling&t=OjBInrv&sid=h_76gP7oN2-vupPGAAAA HTTP/1.1" 200 -
+2023-10-20 09:44:55,876 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:44:55] "GET /socket.io/?EIO=4&transport=polling&t=OjBInrx&sid=h_76gP7oN2-vupPGAAAA HTTP/1.1" 200 -
+2023-10-20 09:44:55,880 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:45:10,027 :: WARNING ::  has left the room
+2023-10-20 09:45:10,039 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:45:10,044 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /socket.io/?EIO=4&transport=websocket&sid=h_76gP7oN2-vupPGAAAA HTTP/1.1" 200 -
+2023-10-20 09:45:10,052 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:45:10,064 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /socket.io/?EIO=4&transport=polling&t=OjBIrJg HTTP/1.1" 200 -
+2023-10-20 09:45:10,071 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "POST /socket.io/?EIO=4&transport=polling&t=OjBIrJo&sid=P-tkCYMZ3nHiFDUtAAAC HTTP/1.1" 200 -
+2023-10-20 09:45:10,074 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /socket.io/?EIO=4&transport=polling&t=OjBIrJp&sid=P-tkCYMZ3nHiFDUtAAAC HTTP/1.1" 200 -
+2023-10-20 09:45:10,078 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:45:10,492 :: WARNING ::  has left the room
+2023-10-20 09:45:10,498 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:45:10,505 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /socket.io/?EIO=4&transport=websocket&sid=P-tkCYMZ3nHiFDUtAAAC HTTP/1.1" 200 -
+2023-10-20 09:45:10,511 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:45:10,517 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /socket.io/?EIO=4&transport=polling&t=OjBIrQm HTTP/1.1" 200 -
+2023-10-20 09:45:10,523 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "POST /socket.io/?EIO=4&transport=polling&t=OjBIrQs&sid=Gfwe-mnmV5nZlHXzAAAE HTTP/1.1" 200 -
+2023-10-20 09:45:10,526 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:10] "GET /socket.io/?EIO=4&transport=polling&t=OjBIrQt&sid=Gfwe-mnmV5nZlHXzAAAE HTTP/1.1" 200 -
+2023-10-20 09:45:10,533 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:45:32,049 :: WARNING ::  has left the room
+2023-10-20 09:45:32,061 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:32] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:45:32,065 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:32] "GET /socket.io/?EIO=4&transport=websocket&sid=Gfwe-mnmV5nZlHXzAAAE HTTP/1.1" 200 -
+2023-10-20 09:45:32,073 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:32] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:45:32,084 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:32] "GET /socket.io/?EIO=4&transport=polling&t=OjBIwhj HTTP/1.1" 200 -
+2023-10-20 09:45:32,090 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:32] "POST /socket.io/?EIO=4&transport=polling&t=OjBIwhr&sid=iFp7eFotUizkq5CQAAAG HTTP/1.1" 200 -
+2023-10-20 09:45:32,093 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:32] "GET /socket.io/?EIO=4&transport=polling&t=OjBIwhs&sid=iFp7eFotUizkq5CQAAAG HTTP/1.1" 200 -
+2023-10-20 09:45:32,098 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:45:48,376 :: WARNING ::  has left the room
+2023-10-20 09:45:48,388 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:48] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:45:48,392 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:48] "GET /socket.io/?EIO=4&transport=websocket&sid=iFp7eFotUizkq5CQAAAG HTTP/1.1" 200 -
+2023-10-20 09:45:48,397 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:48] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:45:48,405 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:48] "GET /socket.io/?EIO=4&transport=polling&t=OjBI-gk HTTP/1.1" 200 -
+2023-10-20 09:45:48,411 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:48] "POST /socket.io/?EIO=4&transport=polling&t=OjBI-gs&sid=OEe9jgOar_e9ar3uAAAI HTTP/1.1" 200 -
+2023-10-20 09:45:48,413 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:48] "GET /socket.io/?EIO=4&transport=polling&t=OjBI-gt&sid=OEe9jgOar_e9ar3uAAAI HTTP/1.1" 200 -
+2023-10-20 09:45:48,418 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:45:57,551 :: WARNING ::  has left the room
+2023-10-20 09:45:57,560 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:57] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:45:57,564 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:57] "GET /socket.io/?EIO=4&transport=websocket&sid=OEe9jgOar_e9ar3uAAAI HTTP/1.1" 200 -
+2023-10-20 09:45:57,572 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:57] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:45:57,584 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:57] "GET /socket.io/?EIO=4&transport=polling&t=OjBJ0w9 HTTP/1.1" 200 -
+2023-10-20 09:45:57,590 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:57] "POST /socket.io/?EIO=4&transport=polling&t=OjBJ0wJ&sid=57OuhkcraC9109FbAAAK HTTP/1.1" 200 -
+2023-10-20 09:45:57,593 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:45:57] "GET /socket.io/?EIO=4&transport=polling&t=OjBJ0wK&sid=57OuhkcraC9109FbAAAK HTTP/1.1" 200 -
+2023-10-20 09:45:57,599 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:46:13,214 :: WARNING ::  has left the room
+2023-10-20 09:46:13,224 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:13] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:46:13,228 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:13] "GET /socket.io/?EIO=4&transport=websocket&sid=57OuhkcraC9109FbAAAK HTTP/1.1" 200 -
+2023-10-20 09:46:13,235 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:13] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:46:13,248 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:13] "GET /socket.io/?EIO=4&transport=polling&t=OjBJ4kw HTTP/1.1" 200 -
+2023-10-20 09:46:13,255 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:13] "POST /socket.io/?EIO=4&transport=polling&t=OjBJ4l3&sid=HWRZ-cs3uqS78_weAAAM HTTP/1.1" 200 -
+2023-10-20 09:46:13,257 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:13] "GET /socket.io/?EIO=4&transport=polling&t=OjBJ4l4&sid=HWRZ-cs3uqS78_weAAAM HTTP/1.1" 200 -
+2023-10-20 09:46:13,262 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:46:26,315 :: WARNING ::  has left the room
+2023-10-20 09:46:26,333 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:26] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:46:26,341 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:26] "GET /socket.io/?EIO=4&transport=websocket&sid=HWRZ-cs3uqS78_weAAAM HTTP/1.1" 200 -
+2023-10-20 09:46:26,348 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:26] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:46:26,359 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:26] "GET /socket.io/?EIO=4&transport=polling&t=OjBJ7xo HTTP/1.1" 200 -
+2023-10-20 09:46:26,365 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:26] "POST /socket.io/?EIO=4&transport=polling&t=OjBJ7xv&sid=08MRcr-xMc9SCLFfAAAO HTTP/1.1" 200 -
+2023-10-20 09:46:26,367 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:46:26] "GET /socket.io/?EIO=4&transport=polling&t=OjBJ7xw&sid=08MRcr-xMc9SCLFfAAAO HTTP/1.1" 200 -
+2023-10-20 09:46:26,372 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:47:13,354 :: WARNING ::  has left the room
+2023-10-20 09:47:13,365 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:13] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:47:13,371 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:13] "GET /socket.io/?EIO=4&transport=websocket&sid=08MRcr-xMc9SCLFfAAAO HTTP/1.1" 200 -
+2023-10-20 09:47:13,378 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:13] "GET /static/styles/chat.css HTTP/1.1" 200 -
+2023-10-20 09:47:13,386 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:13] "GET /socket.io/?EIO=4&transport=polling&t=OjBJJQc HTTP/1.1" 200 -
+2023-10-20 09:47:13,392 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:13] "POST /socket.io/?EIO=4&transport=polling&t=OjBJJQi&sid=kmMgVB3Pmp6BBMZKAAAQ HTTP/1.1" 200 -
+2023-10-20 09:47:13,395 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:13] "GET /socket.io/?EIO=4&transport=polling&t=OjBJJQj&sid=kmMgVB3Pmp6BBMZKAAAQ HTTP/1.1" 200 -
+2023-10-20 09:47:13,402 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:47:27,722 :: WARNING ::  has left the room
+2023-10-20 09:47:27,728 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:27] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:47:27,737 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:27] "GET /socket.io/?EIO=4&transport=websocket&sid=kmMgVB3Pmp6BBMZKAAAQ HTTP/1.1" 200 -
+2023-10-20 09:47:27,742 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:27] "GET /static/styles/chat.css HTTP/1.1" 200 -
+2023-10-20 09:47:27,748 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:27] "GET /socket.io/?EIO=4&transport=polling&t=OjBJMx0 HTTP/1.1" 200 -
+2023-10-20 09:47:27,755 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:27] "POST /socket.io/?EIO=4&transport=polling&t=OjBJMx7&sid=FSYrK4Zw7VmEtfpjAAAS HTTP/1.1" 200 -
+2023-10-20 09:47:27,757 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:27] "GET /socket.io/?EIO=4&transport=polling&t=OjBJMx7.0&sid=FSYrK4Zw7VmEtfpjAAAS HTTP/1.1" 200 -
+2023-10-20 09:47:27,762 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:47:51,693 :: WARNING ::  has left the room
+2023-10-20 09:47:51,696 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:51] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:47:51,702 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:51] "GET /socket.io/?EIO=4&transport=websocket&sid=FSYrK4Zw7VmEtfpjAAAS HTTP/1.1" 200 -
+2023-10-20 09:47:51,711 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:51] "GET /static/styles/chat.css HTTP/1.1" 200 -
+2023-10-20 09:47:51,727 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:51] "GET /socket.io/?EIO=4&transport=polling&t=OjBJSne HTTP/1.1" 200 -
+2023-10-20 09:47:51,740 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:51] "POST /socket.io/?EIO=4&transport=polling&t=OjBJSnt&sid=hlvckY6c1Rg7hMOJAAAU HTTP/1.1" 200 -
+2023-10-20 09:47:51,742 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:47:51] "GET /socket.io/?EIO=4&transport=polling&t=OjBJSnu&sid=hlvckY6c1Rg7hMOJAAAU HTTP/1.1" 200 -
+2023-10-20 09:47:51,747 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:48:53,496 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:48:53] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:48:53,507 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:48:53] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:49:02,440 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:49:02] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 09:49:02,444 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:49:02] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:49:02,459 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:49:02] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:49:02,470 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:49:02] "GET /socket.io/?EIO=4&transport=polling&t=OjBJk33 HTTP/1.1" 200 -
+2023-10-20 09:49:02,488 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:49:02] "POST /socket.io/?EIO=4&transport=polling&t=OjBJk3L&sid=HDJuPu5OLwnpIGzBAAAW HTTP/1.1" 200 -
+2023-10-20 09:49:02,491 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:49:02] "GET /socket.io/?EIO=4&transport=polling&t=OjBJk3M&sid=HDJuPu5OLwnpIGzBAAAW HTTP/1.1" 200 -
+2023-10-20 09:49:02,497 :: WARNING :: Suresh has joined the room
+2023-10-20 09:50:46,689 :: WARNING ::  has left the room
+2023-10-20 09:50:46,696 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "[32mGET /Friends/Suresh HTTP/1.1[0m" 302 -
+2023-10-20 09:50:46,700 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:50:46,705 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "GET /socket.io/?EIO=4&transport=websocket&sid=HDJuPu5OLwnpIGzBAAAW HTTP/1.1" 200 -
+2023-10-20 09:50:46,711 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:50:46,720 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "GET /socket.io/?EIO=4&transport=polling&t=OjBK7Vs HTTP/1.1" 200 -
+2023-10-20 09:50:46,728 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "POST /socket.io/?EIO=4&transport=polling&t=OjBK7V-&sid=Qmz7auFR3sbG3OHbAAAY HTTP/1.1" 200 -
+2023-10-20 09:50:46,730 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:50:46] "GET /socket.io/?EIO=4&transport=polling&t=OjBK7V_&sid=Qmz7auFR3sbG3OHbAAAY HTTP/1.1" 200 -
+2023-10-20 09:50:46,735 :: WARNING :: Suresh has joined the room
+2023-10-20 09:51:06,003 :: WARNING ::  has left the room
+2023-10-20 09:51:06,013 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "[32mGET /Friends/Ramesh HTTP/1.1[0m" 302 -
+2023-10-20 09:51:06,018 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:51:06,024 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "GET /socket.io/?EIO=4&transport=websocket&sid=hlvckY6c1Rg7hMOJAAAU HTTP/1.1" 200 -
+2023-10-20 09:51:06,030 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:51:06,036 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "GET /socket.io/?EIO=4&transport=polling&t=OjBKCDi HTTP/1.1" 200 -
+2023-10-20 09:51:06,042 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "POST /socket.io/?EIO=4&transport=polling&t=OjBKCDn&sid=xS55qXUmU3Wk3YN9AAAa HTTP/1.1" 200 -
+2023-10-20 09:51:06,044 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:06] "GET /socket.io/?EIO=4&transport=polling&t=OjBKCDo&sid=xS55qXUmU3Wk3YN9AAAa HTTP/1.1" 200 -
+2023-10-20 09:51:06,049 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:51:56,734 :: WARNING ::  has left the room
+2023-10-20 09:51:56,743 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "[32mPOST /friend_check HTTP/1.1[0m" 302 -
+2023-10-20 09:51:56,748 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:51:56,763 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "GET /socket.io/?EIO=4&transport=websocket&sid=xS55qXUmU3Wk3YN9AAAa HTTP/1.1" 200 -
+2023-10-20 09:51:56,764 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:51:56,775 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "GET /socket.io/?EIO=4&transport=polling&t=OjBKOcX HTTP/1.1" 200 -
+2023-10-20 09:51:56,782 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "POST /socket.io/?EIO=4&transport=polling&t=OjBKOce&sid=DG_grDLCIssvUhzxAAAc HTTP/1.1" 200 -
+2023-10-20 09:51:56,784 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:56] "GET /socket.io/?EIO=4&transport=polling&t=OjBKOcf&sid=DG_grDLCIssvUhzxAAAc HTTP/1.1" 200 -
+2023-10-20 09:51:56,788 :: WARNING :: Suresh has joined the room
+2023-10-20 09:51:59,895 :: WARNING ::  has left the room
+2023-10-20 09:51:59,903 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "[32mGET /access_request/Suresh HTTP/1.1[0m" 302 -
+2023-10-20 09:51:59,909 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:51:59,916 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "GET /socket.io/?EIO=4&transport=websocket&sid=DG_grDLCIssvUhzxAAAc HTTP/1.1" 200 -
+2023-10-20 09:51:59,922 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:51:59,934 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "GET /socket.io/?EIO=4&transport=polling&t=OjBKPNu HTTP/1.1" 200 -
+2023-10-20 09:51:59,943 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "POST /socket.io/?EIO=4&transport=polling&t=OjBKPN_&sid=ZGMrUOiH-TGLhEqNAAAe HTTP/1.1" 200 -
+2023-10-20 09:51:59,945 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:51:59] "GET /socket.io/?EIO=4&transport=polling&t=OjBKPO1&sid=ZGMrUOiH-TGLhEqNAAAe HTTP/1.1" 200 -
+2023-10-20 09:51:59,949 :: WARNING :: Suresh has joined the room
+2023-10-20 09:52:21,256 :: WARNING ::  has left the room
+2023-10-20 09:52:21,261 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:21] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:52:21,267 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:21] "GET /socket.io/?EIO=4&transport=websocket&sid=Qmz7auFR3sbG3OHbAAAY HTTP/1.1" 200 -
+2023-10-20 09:52:21,275 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:21] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:21,290 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:21] "GET /socket.io/?EIO=4&transport=polling&t=OjBKUba HTTP/1.1" 200 -
+2023-10-20 09:52:21,297 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:21] "POST /socket.io/?EIO=4&transport=polling&t=OjBKUbj&sid=qpJ6NTNQHlZSk3hJAAAg HTTP/1.1" 200 -
+2023-10-20 09:52:21,299 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:21] "GET /socket.io/?EIO=4&transport=polling&t=OjBKUbk&sid=qpJ6NTNQHlZSk3hJAAAg HTTP/1.1" 200 -
+2023-10-20 09:52:21,303 :: WARNING :: Suresh has joined the room
+2023-10-20 09:52:26,776 :: WARNING ::  has left the room
+2023-10-20 09:52:26,781 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 09:52:26,785 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:26] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:52:26,798 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:26] "GET /socket.io/?EIO=4&transport=websocket&sid=qpJ6NTNQHlZSk3hJAAAg HTTP/1.1" 200 -
+2023-10-20 09:52:26,801 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:26] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:31,177 :: WARNING ::  has left the room
+2023-10-20 09:52:31,181 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 09:52:31,186 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:31] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:52:31,202 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:31] "GET /socket.io/?EIO=4&transport=websocket&sid=ZGMrUOiH-TGLhEqNAAAe HTTP/1.1" 200 -
+2023-10-20 09:52:31,203 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:31] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:36,715 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:36] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 09:52:36,719 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:36] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:52:36,735 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:36] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:36,745 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:36] "GET /socket.io/?EIO=4&transport=polling&t=OjBKYN4 HTTP/1.1" 200 -
+2023-10-20 09:52:36,752 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:36] "POST /socket.io/?EIO=4&transport=polling&t=OjBKYNC&sid=YVo4_pKHhRCsd7gMAAAi HTTP/1.1" 200 -
+2023-10-20 09:52:36,755 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:36] "GET /socket.io/?EIO=4&transport=polling&t=OjBKYND&sid=YVo4_pKHhRCsd7gMAAAi HTTP/1.1" 200 -
+2023-10-20 09:52:36,760 :: WARNING :: Suresh has joined the room
+2023-10-20 09:52:38,529 :: WARNING ::  has left the room
+2023-10-20 09:52:38,534 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "[32mGET /access_request/Suresh HTTP/1.1[0m" 302 -
+2023-10-20 09:52:38,538 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:52:38,543 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "GET /socket.io/?EIO=4&transport=websocket&sid=YVo4_pKHhRCsd7gMAAAi HTTP/1.1" 200 -
+2023-10-20 09:52:38,557 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:38,568 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "GET /socket.io/?EIO=4&transport=polling&t=OjBKYpZ HTTP/1.1" 200 -
+2023-10-20 09:52:38,576 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "POST /socket.io/?EIO=4&transport=polling&t=OjBKYpf&sid=DApsxgpaanzzq1E5AAAk HTTP/1.1" 200 -
+2023-10-20 09:52:38,578 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:38] "GET /socket.io/?EIO=4&transport=polling&t=OjBKYpg&sid=DApsxgpaanzzq1E5AAAk HTTP/1.1" 200 -
+2023-10-20 09:52:38,583 :: WARNING :: Suresh has joined the room
+2023-10-20 09:52:45,216 :: WARNING ::  has left the room
+2023-10-20 09:52:45,221 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 09:52:45,226 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:45] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:52:45,246 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:45] "GET /socket.io/?EIO=4&transport=websocket&sid=DApsxgpaanzzq1E5AAAk HTTP/1.1" 200 -
+2023-10-20 09:52:45,247 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:45] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:50,462 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:50] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 09:52:50,467 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:50] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:52:50,485 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:50] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:50,495 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:50] "GET /socket.io/?EIO=4&transport=polling&t=OjBKbjv HTTP/1.1" 200 -
+2023-10-20 09:52:50,501 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:50] "POST /socket.io/?EIO=4&transport=polling&t=OjBKbk0&sid=2Yr92hUrwZWT_Tk6AAAm HTTP/1.1" 200 -
+2023-10-20 09:52:50,503 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:50] "GET /socket.io/?EIO=4&transport=polling&t=OjBKbk1&sid=2Yr92hUrwZWT_Tk6AAAm HTTP/1.1" 200 -
+2023-10-20 09:52:50,508 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:52:51,904 :: WARNING ::  has left the room
+2023-10-20 09:52:51,913 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "[32mGET /access_request/Ramesh HTTP/1.1[0m" 302 -
+2023-10-20 09:52:51,918 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:52:51,922 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "GET /socket.io/?EIO=4&transport=websocket&sid=2Yr92hUrwZWT_Tk6AAAm HTTP/1.1" 200 -
+2023-10-20 09:52:51,933 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:52:51,944 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "GET /socket.io/?EIO=4&transport=polling&t=OjBKc4Y HTTP/1.1" 200 -
+2023-10-20 09:52:51,951 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "POST /socket.io/?EIO=4&transport=polling&t=OjBKc4g&sid=Z4REuMuvMDp4wHSdAAAo HTTP/1.1" 200 -
+2023-10-20 09:52:51,953 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:51] "GET /socket.io/?EIO=4&transport=polling&t=OjBKc4h&sid=Z4REuMuvMDp4wHSdAAAo HTTP/1.1" 200 -
+2023-10-20 09:52:51,962 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:52:54,536 :: WARNING ::  has left the room
+2023-10-20 09:52:54,541 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 09:52:54,546 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:54] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:52:54,561 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:54] "GET /socket.io/?EIO=4&transport=websocket&sid=Z4REuMuvMDp4wHSdAAAo HTTP/1.1" 200 -
+2023-10-20 09:52:54,563 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:52:54] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:53:01,703 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:01] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 09:53:01,709 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:01] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:53:01,724 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:01] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:53:01,735 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:01] "GET /socket.io/?EIO=4&transport=polling&t=OjBKeTZ HTTP/1.1" 200 -
+2023-10-20 09:53:01,742 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:01] "POST /socket.io/?EIO=4&transport=polling&t=OjBKeTf&sid=vwc_hlRBXO5agc2TAAAq HTTP/1.1" 200 -
+2023-10-20 09:53:01,745 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:01] "GET /socket.io/?EIO=4&transport=polling&t=OjBKeTg&sid=vwc_hlRBXO5agc2TAAAq HTTP/1.1" 200 -
+2023-10-20 09:53:01,749 :: WARNING :: Suresh has joined the room
+2023-10-20 09:53:05,066 :: WARNING ::  has left the room
+2023-10-20 09:53:05,075 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "[32mPOST /friend_check HTTP/1.1[0m" 302 -
+2023-10-20 09:53:05,079 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 09:53:05,085 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "GET /socket.io/?EIO=4&transport=websocket&sid=vwc_hlRBXO5agc2TAAAq HTTP/1.1" 200 -
+2023-10-20 09:53:05,093 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:53:05,109 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "GET /socket.io/?EIO=4&transport=polling&t=OjBKfID HTTP/1.1" 200 -
+2023-10-20 09:53:05,115 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "POST /socket.io/?EIO=4&transport=polling&t=OjBKfIN&sid=eRQDTFVuRpmRJSGJAAAs HTTP/1.1" 200 -
+2023-10-20 09:53:05,118 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:05] "GET /socket.io/?EIO=4&transport=polling&t=OjBKfIO&sid=eRQDTFVuRpmRJSGJAAAs HTTP/1.1" 200 -
+2023-10-20 09:53:05,124 :: WARNING :: Suresh has joined the room
+2023-10-20 09:53:07,059 :: WARNING ::  has left the room
+2023-10-20 09:53:07,066 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 09:53:07,070 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:07] "GET /login HTTP/1.1" 200 -
+2023-10-20 09:53:07,086 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:07] "GET /socket.io/?EIO=4&transport=websocket&sid=eRQDTFVuRpmRJSGJAAAs HTTP/1.1" 200 -
+2023-10-20 09:53:07,088 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:07] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 09:53:14,878 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:14] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 09:53:14,882 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:14] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:53:14,897 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:14] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:53:14,907 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:14] "GET /socket.io/?EIO=4&transport=polling&t=OjBKhhL HTTP/1.1" 200 -
+2023-10-20 09:53:14,914 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:14] "POST /socket.io/?EIO=4&transport=polling&t=OjBKhhT&sid=Cml2TrZBk4P_W7p8AAAu HTTP/1.1" 200 -
+2023-10-20 09:53:14,917 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:14] "GET /socket.io/?EIO=4&transport=polling&t=OjBKhhU&sid=Cml2TrZBk4P_W7p8AAAu HTTP/1.1" 200 -
+2023-10-20 09:53:14,922 :: WARNING :: Ramesh has joined the room
+2023-10-20 09:53:16,826 :: WARNING ::  has left the room
+2023-10-20 09:53:16,832 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "[32mGET /access_request/Ramesh HTTP/1.1[0m" 302 -
+2023-10-20 09:53:16,837 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 09:53:16,842 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "GET /socket.io/?EIO=4&transport=websocket&sid=Cml2TrZBk4P_W7p8AAAu HTTP/1.1" 200 -
+2023-10-20 09:53:16,848 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 09:53:16,854 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "GET /socket.io/?EIO=4&transport=polling&t=OjBKi9n HTTP/1.1" 200 -
+2023-10-20 09:53:16,862 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "POST /socket.io/?EIO=4&transport=polling&t=OjBKi9s&sid=GgIJCB_MhR5Nw_RGAAAw HTTP/1.1" 200 -
+2023-10-20 09:53:16,864 :: INFO :: 127.0.0.1 - - [20/Oct/2023 09:53:16] "GET /socket.io/?EIO=4&transport=polling&t=OjBKi9t&sid=GgIJCB_MhR5Nw_RGAAAw HTTP/1.1" 200 -
+2023-10-20 09:53:16,869 :: WARNING :: Ramesh has joined the room
+2023-10-20 10:00:05,129 :: WARNING ::  has left the room
+2023-10-20 10:00:05,148 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 10:00:05,154 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:05] "GET /login HTTP/1.1" 200 -
+2023-10-20 10:00:05,173 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:05] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 10:00:05,175 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:05] "GET /socket.io/?EIO=4&transport=websocket&sid=GgIJCB_MhR5Nw_RGAAAw HTTP/1.1" 200 -
+2023-10-20 10:00:09,964 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:09] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 10:00:09,970 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:09] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 10:00:09,995 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:09] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 10:00:10,009 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:10] "GET /socket.io/?EIO=4&transport=polling&t=OjBMH1L HTTP/1.1" 200 -
+2023-10-20 10:00:10,016 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:10] "POST /socket.io/?EIO=4&transport=polling&t=OjBMH1U&sid=MYE0ZtP8Ei2YP1erAAAy HTTP/1.1" 200 -
+2023-10-20 10:00:10,019 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:10] "GET /socket.io/?EIO=4&transport=polling&t=OjBMH1V&sid=MYE0ZtP8Ei2YP1erAAAy HTTP/1.1" 200 -
+2023-10-20 10:00:10,027 :: WARNING :: Ramesh has joined the room
+2023-10-20 10:00:23,981 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:23] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 10:00:23,987 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:23] "GET /chat/Suresh HTTP/1.1" 200 -
+2023-10-20 10:00:24,007 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:24] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 10:00:24,024 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:24] "GET /socket.io/?EIO=4&transport=polling&t=OjBMKSK HTTP/1.1" 200 -
+2023-10-20 10:00:24,031 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:24] "POST /socket.io/?EIO=4&transport=polling&t=OjBMKSS&sid=Xo7gsIe2GqkSuKJZAAA0 HTTP/1.1" 200 -
+2023-10-20 10:00:24,033 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:24] "GET /socket.io/?EIO=4&transport=polling&t=OjBMKST&sid=Xo7gsIe2GqkSuKJZAAA0 HTTP/1.1" 200 -
+2023-10-20 10:00:24,066 :: WARNING :: Suresh has joined the room
+2023-10-20 10:00:33,391 :: WARNING ::  has left the room
+2023-10-20 10:00:33,397 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 10:00:33,402 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:33] "GET /login HTTP/1.1" 200 -
+2023-10-20 10:00:33,419 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:33] "GET /socket.io/?EIO=4&transport=websocket&sid=MYE0ZtP8Ei2YP1erAAAy HTTP/1.1" 200 -
+2023-10-20 10:00:33,420 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:33] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 10:00:48,435 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:48] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 10:00:48,438 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:48] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 10:00:48,455 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:48] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 10:00:48,470 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:48] "GET /socket.io/?EIO=4&transport=polling&t=OjBMQQI HTTP/1.1" 200 -
+2023-10-20 10:00:48,476 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:48] "POST /socket.io/?EIO=4&transport=polling&t=OjBMQQP&sid=TafNHYGq_yNEtaL4AAA2 HTTP/1.1" 200 -
+2023-10-20 10:00:48,478 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:00:48] "GET /socket.io/?EIO=4&transport=polling&t=OjBMQQQ&sid=TafNHYGq_yNEtaL4AAA2 HTTP/1.1" 200 -
+2023-10-20 10:00:48,482 :: WARNING :: Ramesh has joined the room
+2023-10-20 10:01:00,551 :: WARNING ::  has left the room
+2023-10-20 10:01:00,565 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 10:01:00,571 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:00] "GET /login HTTP/1.1" 200 -
+2023-10-20 10:01:00,589 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:00] "GET /socket.io/?EIO=4&transport=websocket&sid=TafNHYGq_yNEtaL4AAA2 HTTP/1.1" 200 -
+2023-10-20 10:01:00,591 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:00] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 10:01:08,841 :: WARNING ::  has left the room
+2023-10-20 10:01:08,846 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 10:01:08,850 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:08] "GET /login HTTP/1.1" 200 -
+2023-10-20 10:01:08,863 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:08] "GET /socket.io/?EIO=4&transport=websocket&sid=Xo7gsIe2GqkSuKJZAAA0 HTTP/1.1" 200 -
+2023-10-20 10:01:08,864 :: INFO :: 127.0.0.1 - - [20/Oct/2023 10:01:08] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 11:05:02,267 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:02] "GET /login HTTP/1.1" 200 -
+2023-10-20 11:05:02,280 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:02] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 11:05:15,738 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:15] "[32mPOST /login_check HTTP/1.1[0m" 302 -
+2023-10-20 11:05:15,744 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:15] "GET /chat/Ramesh HTTP/1.1" 200 -
+2023-10-20 11:05:15,759 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:15] "[36mGET /static/styles/chat.css HTTP/1.1[0m" 304 -
+2023-10-20 11:05:15,781 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:15] "GET /socket.io/?EIO=4&transport=polling&t=OjBbAa_ HTTP/1.1" 200 -
+2023-10-20 11:05:15,788 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:15] "POST /socket.io/?EIO=4&transport=polling&t=OjBbAb7&sid=ZaqB7zsaM_35R9LrAAA4 HTTP/1.1" 200 -
+2023-10-20 11:05:15,791 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:05:15] "GET /socket.io/?EIO=4&transport=polling&t=OjBbAb9&sid=ZaqB7zsaM_35R9LrAAA4 HTTP/1.1" 200 -
+2023-10-20 11:05:15,796 :: WARNING :: Ramesh has joined the room
+2023-10-20 11:14:09,979 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:14:09] "GET /socket.io/?EIO=4&transport=websocket&sid=ZaqB7zsaM_35R9LrAAA4 HTTP/1.1" 200 -
+2023-10-20 11:14:11,360 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:14:11] "GET /socket.io/?EIO=4&transport=polling&t=OjBdDLR HTTP/1.1" 200 -
+2023-10-20 11:14:11,369 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:14:11] "POST /socket.io/?EIO=4&transport=polling&t=OjBdDLc&sid=StYLWeCsaxnPJmjVAAA6 HTTP/1.1" 200 -
+2023-10-20 11:14:11,372 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:14:11] "GET /socket.io/?EIO=4&transport=polling&t=OjBdDLd&sid=StYLWeCsaxnPJmjVAAA6 HTTP/1.1" 200 -
+2023-10-20 11:14:11,378 :: WARNING :: Ramesh has joined the room
+2023-10-20 11:19:01,368 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:19:01] "GET /socket.io/?EIO=4&transport=websocket&sid=StYLWeCsaxnPJmjVAAA6 HTTP/1.1" 200 -
+2023-10-20 11:19:02,366 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:19:02] "GET /socket.io/?EIO=4&transport=polling&t=OjBeKOQ HTTP/1.1" 200 -
+2023-10-20 11:19:02,372 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:19:02] "POST /socket.io/?EIO=4&transport=polling&t=OjBeKOX&sid=QLQCVD3WbYM94sMxAAA8 HTTP/1.1" 200 -
+2023-10-20 11:19:02,374 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:19:02] "GET /socket.io/?EIO=4&transport=polling&t=OjBeKOY&sid=QLQCVD3WbYM94sMxAAA8 HTTP/1.1" 200 -
+2023-10-20 11:19:02,379 :: WARNING :: Ramesh has joined the room
+2023-10-20 11:27:03,428 :: WARNING ::  has left the room
+2023-10-20 11:27:03,437 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:27:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-10-20 11:27:03,446 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:27:03] "GET /login HTTP/1.1" 200 -
+2023-10-20 11:27:03,477 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:27:03] "[36mGET /static/styles/login.css HTTP/1.1[0m" 304 -
+2023-10-20 11:27:03,479 :: INFO :: 127.0.0.1 - - [20/Oct/2023 11:27:03] "GET /socket.io/?EIO=4&transport=websocket&sid=QLQCVD3WbYM94sMxAAA8 HTTP/1.1" 200 -
